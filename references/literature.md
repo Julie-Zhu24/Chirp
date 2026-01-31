@@ -20,3 +20,12 @@ This directionary includes the references used in the project.
 - **Relevance to Chirp:** Gives parrot‑specific behavioral/emotional indicators you can use to label or interpret emotional states.  
 - **Limitations/Advantages:** Advantage is solid, species‑specific indicators; limitation is lack of AI modeling techniques.
 
+### 5. *BirdNET* – Bird species identification from audio by BirdNET Team.  
+[GitHub link](https://github.com/birdnet-team/birdnet)
+- **Relevance to Chirp:** Gives inspiration on the model to be used: Convolutional Neural Network (CNN).
+
+### 6. Robinson et al., 2024 – *NatureLM‑audio: an Audio‑Language Foundation Model for Bioacoustics*
+- **Study focus:** Introduces **NatureLM‑audio**, the first audio-language foundation model for bioacoustics. It is designed to classify, detect, and caption animal vocalizations, supporting zero-shot recognition of unseen species and tasks.  
+- **Link:** [arXiv](https://arxiv.org/abs/2411.07186)
+- **Relevance to Chirp:** Audio-language joint learning could be adapted to **parrot vocalizations + descriptive emotion labels**, allowing the model to predict emotions in a zero-shot or low-data scenario.
+- **Limitations:** Designed for species and behavior classification, not emotion; fine-tuning with parrot-specific emotion labels is necessary. It requires substantial paired text-audio datasets; generating accurate emotion labels for parrots may be challenging. 
