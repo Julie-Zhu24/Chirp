@@ -12,7 +12,6 @@ Let:
 - S = Social Engagement
 - w_B, w_D, w_M = weights for Valence direction factor
 
----
 
 ## 1. Arousal
 
@@ -24,7 +23,6 @@ $$
 
 Range: 0 → 5
 
----
 
 ## 2. Valence
 
@@ -47,7 +45,6 @@ Range: -5 → 5
 > Default weights: w_B = 0.6, w_D = 0.25, w_M = 0.15  
 > Clip V to [-5, 5]
 
----
 
 ## 3. Social Engagement
 
