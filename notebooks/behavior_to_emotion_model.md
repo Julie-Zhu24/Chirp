@@ -8,7 +8,7 @@ Chirp aims to analyze the vocalizations and behavior of pet Peach-faced Lovebird
 
 | Feature | Range | Positive / Negative Meaning | Description |
 |---------|-------|----------------------------|------------|
-| **M = Movement Intensity** | -5 → 5 | |M| large → high activity / arousal | Measures how active the bird is. High activity indicates excitement but does not directly determine emotional valence. |
+| **M = Movement Intensity** | -5 → 5 | large → high activity / arousal | Measures how active the bird is. High activity indicates excitement but does not directly determine emotional valence. |
 | **B = Body Posture** | -5 → 5 | B > 0 → confident, display behavior, proactive<br>B < 0 → aggressive, defensive, “fluffed up” | Captures posture polarity and intensity. Influences both emotion direction and activation level. |
 | **D = Directionality** | -5 → 5 | D > 0 → oriented toward other birds<br>D < 0 → oriented toward humans | Captures social orientation. Influences social engagement and partially affects valence direction. |
 
